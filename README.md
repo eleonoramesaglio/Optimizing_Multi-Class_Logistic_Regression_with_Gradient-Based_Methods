@@ -3,7 +3,7 @@
 
 Consider a Multi-Class Logistic problem of the form: 
 
-$$\tag{1} \min_{X \in \mathbb{R}^{d \times k}} \sum_{i=1}^{m} \left[ -x_{b_i}^T a_i + log\left( \sum_{c=1}^{k} \exp(x_{c}^T a_i) \right) \right] $$
+\[\tag{1} \min_{X \in \mathbb{R}^{d \times k}} \sum_{i=1}^{m} \left[ -x_{b_i}^T a_i + log\left( \sum_{c=1}^{k} \exp(x_{c}^T a_i) \right) \right] \]
 
 Likelihood for single training example $i$ with features $a_i \in \mathbb{R}^{d}$ and label $b_i \in \{1, 2, \ldots, k\}$ is given by  
 
